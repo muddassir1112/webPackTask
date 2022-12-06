@@ -6,9 +6,12 @@
   "name": "webapp",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  },
   "scripts": {
-    "build": "webpack --config custom.js"
+    "build": "webpack --config custom.js",
+    "start": "webpack-dev-server --mode development --open"
   },
   "keywords": [],
   "author": "",
