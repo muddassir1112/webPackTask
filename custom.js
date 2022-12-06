@@ -7,9 +7,7 @@ module.exports ={
         filename : 'output.js' 
     },
     devServer: {
-        static: {
-          directory: path.join(__dirname, 'dist'),
-        },
+        contentBase : path.join(__dirname, 'dist'),
         compress: true,
         port: 4500,
       },
