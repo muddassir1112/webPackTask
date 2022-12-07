@@ -12,8 +12,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --mode development --open "
+    "build": "webpack --config config.prod.js" ,
+    "start": "webpack-dev-server --mode development --open --config config.dev.js "
   },
   "keywords": [],
   "author": "",
